@@ -1,0 +1,70 @@
+body {
+color:#F2F2F2;
+text-align: left;
+margin: 15%;
+font-size: 15px;
+line-height: 2rem;
+}
+
+h2, p {margin: 3% 15% }
+
+.heading {
+
+margin-top: 5%;
+margin-bottom: 5%;
+font-family: Big Shoulders Display;
+font-weight: 700;
+text-transform: uppercase;
+}
+.text {
+  width: 60%;
+font-family:Lexend Deca;
+font-weight: 400;
+padding-bottom: 30%;
+}
+
+.logo {margin: 20% 15% 5%}
+.first-column {background-color: #EEB77C;
+  border-radius: 10px 0 0 10px;
+}
+.second-column {background-color:#006970 }
+.third-column {background-color:#004241;
+  border-radius: 0 10px 10px 0;}
+
+/* Buttons */
+
+.buttons {
+margin: 3% 15% 10%;
+  background-color:#F2F2F2;
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  }
+
+.first-column .buttons:hover {
+  background-color:#EEB77C;
+  color:#F2F2F2;
+}
+.first-column .buttons {
+color: #EEB77C;
+}
+.second-column .buttons {
+  color:#006970
+}
+.second-column .buttons:hover {
+  background-color:#006970;
+  color: #F2F2F2;
+}
+.third-column .buttons {
+  color: #004241;
+}
+.third-column .buttons:hover {
+  background-color:#004241;
+  color: #F2F2F2;
+}
+/* attribution */
+.attribution {
+  margin: 5%;
+   font-size: 11px;
+  text-align: center;}
+.attribution a { color: #3E52A3; }
